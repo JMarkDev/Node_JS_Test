@@ -27,7 +27,7 @@ MongoDB (v6.0.6)
 Getting Started
 
 1. Clone the repository
-   bashgit clone https://github.com/yourusername/notes-api.git
+   bashgit clone https://github.com/JMarkDev/Node_JS_Test.git
    cd notes-api
 2. Install dependencies
    bashnpm install
@@ -40,7 +40,7 @@ Getting Started
 
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_CALLBACK_URL=http://localhost:3000/api/auth/google/callback
+GOOGLE_CALLBACK_URL=http://localhost:3001/api/auth/google/callback
 
 # JWT
 
@@ -53,7 +53,7 @@ Navigate to "APIs & Services" > "Credentials"
 Click "Create credentials" > "OAuth client ID"
 Configure the consent screen if prompted
 Select "Web application" as the application type
-Add http://localhost:3000/api/auth/google/callback as an authorized redirect URI
+Add http://localhost:3001/api/auth/google/callback as an authorized redirect URI
 Copy the Client ID and Client Secret to your .env file
 
 5. Start the application
@@ -62,7 +62,7 @@ Copy the Client ID and Client Secret to your .env file
    Production mode
    bashnpm run build
    npm run start:prod
-   The API will be available at http://localhost:3000.
+   The API will be available at http://localhost:3001.
    Project Structure
    notes-api/
    ├── src/
